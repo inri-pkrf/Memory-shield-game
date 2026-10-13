@@ -4,6 +4,9 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // שורה חדשה שנוספה עבור GitHub Pages (החליפי את YOUR-REPO-NAME בשם המדויק של הרפוזיטורי שלך)
+  base: '/Memory-shield-game/',
+  
   plugins: [
     base44({
       // Support for legacy code that imports the base44 SDK with @/integrations, @/entities, etc.
