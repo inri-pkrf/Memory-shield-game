@@ -32,7 +32,7 @@ export default function MemoryGame() {
       style={{ background: 'radial-gradient(ellipse at top, #1a1208 0%, #0a0a0a 60%)' }}
     >
       {screen === 'difficulty' && (
-        <DifficultyScreen difficulties={DIFFICULTIES} onSelect={handleSelectDifficulty} onNavigateHome={() => window.location.href = 'https://totem-smart-flow.base44.app/'} />
+        <DifficultyScreen difficulties={DIFFICULTIES} onSelect={handleSelectDifficulty} onNavigateHome={() => window.location.href = 'https://inri-pkrf.github.io/Totem-Pro-Final/'} />
       )}
       {screen === 'playing' && difficulty && (
         <GameBoard difficulty={difficulty} onWin={handleWin} onBack={() => setScreen('difficulty')} />
