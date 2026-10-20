@@ -238,7 +238,7 @@ export default function GameBoard({ difficulty, onWin, onBack }) {
       {/* Home button — centered at bottom, big & pill, large tap target */}
       <div className="flex justify-center pb-6 pt-2">
         <button
-          onClick={() => window.location.href = 'https://totem-smart-flow.base44.app/'}
+          onClick={() => window.location.href = 'https://inri-pkrf.github.io/Totem-Pro-Final/'}
           className="flex items-center gap-4 px-12 py-6 rounded-full transition-all active:scale-95"
           style={{ backgroundColor: 'rgba(247, 179, 124, 0.85)', minHeight: '72px' }}
         >
